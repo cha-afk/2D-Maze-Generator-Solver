@@ -30,13 +30,13 @@ This project is a **maze generator and solver** written in **C** that creates ra
 - A Unix-based system or Windows with a compatible terminal.
 
 ### 2. Clone the Repository
-```bash git clone https://github.com/your-repo-name/random-maze-generator.git cd random-maze-generator```
+``` git clone https://github.com/your-repo-name/random-maze-generator.git cd random-maze-generator```
 
 ### 3. Compile the Code
-```bash gcc -o maze_generator maze_generator.c```
+``` gcc -o maze_generator maze_generator.c```
 
 ### 4. Run the Program
-```bash ./maze_generator```
+``` ./maze_generator```
 
 ## 🔧 How It Works
 1. Random Maze Generation
