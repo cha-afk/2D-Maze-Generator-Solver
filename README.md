@@ -30,13 +30,19 @@ This project is a **maze generator and solver** written in **C** that creates ra
 - A Unix-based system or Windows with a compatible terminal.
 
 ### 2. Clone the Repository
-``` git clone https://github.com/your-repo-name/random-maze-generator.git cd random-maze-generator```
+```bash
+git clone https://github.com/your-repo-name/random-maze-generator.git cd random-maze-generator
+```
 
 ### 3. Compile the Code
-``` gcc -o maze_generator maze_generator.c```
+```bash
+gcc -o maze_generator maze_generator.c
+```
 
 ### 4. Run the Program
-``` ./maze_generator```
+```bash
+./maze_generator
+```
 
 ## 🔧 How It Works
 1. Random Maze Generation
@@ -102,7 +108,9 @@ To change the maze size, modify the WIDTH and HEIGHT macros in the code:
 
 ## Enable 3D Maze
 Replace the 2D maze array with a 3D array:
-  ```c char maze[LAYERS][HEIGHT][WIDTH];```
+  ```c
+  char maze[LAYERS][HEIGHT][WIDTH];
+```
 
 ## 🤔 Troubleshooting
 Maze is Unsolvable
